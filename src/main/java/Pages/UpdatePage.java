@@ -23,8 +23,8 @@ public class UpdatePage {
 	
 	public void Login() 
 	{
-		driver.findElement(username).sendKeys("User_Name");
-		driver.findElement(password).sendKeys("Password");
+		driver.findElement(username).sendKeys("nikhilsalunkhe8@gmail.com");
+		driver.findElement(password).sendKeys("nikhil@naukari");
 		driver.findElement(button).click();
 	}
 	

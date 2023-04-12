@@ -19,7 +19,7 @@ public class UpdateCV {
 	
 	public void upload() 
 	{
-		driver.findElement(update).sendKeys("path");
+		driver.findElement(update).sendKeys("C:\\Users\\Nikhil\\Desktop\\Nikhil_Salunkhe.pdf");
 	
 	}
 }
