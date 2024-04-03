@@ -6,8 +6,9 @@ import org.testng.annotations.Test;
 
 public class UpdateTest extends BaseTest {
 
+	
 	@Test
-	public void login() throws InterruptedException 
+	public void login() 
 	{
 		resume.Login();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));

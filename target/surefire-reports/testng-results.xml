@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-04T19:26:32 IST" name="Suite" finished-at="2023-10-04T19:26:56 IST" duration-ms="23664">
+    <groups>
+    </groups>
+    <test started-at="2023-10-04T19:26:32 IST" name="Test" finished-at="2023-10-04T19:26:56 IST" duration-ms="23664">
+      <class name="TestClass.CvTest">
+        <test-method is-config="true" signature="creatObject()[pri:0, instance:TestClass.CvTest@1cbb87f3]" started-at="2023-10-04T19:26:55 IST" name="creatObject" finished-at="2023-10-04T19:26:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatObject -->
+        <test-method signature="uploadCV()[pri:0, instance:TestClass.CvTest@1cbb87f3]" started-at="2023-10-04T19:26:55 IST" name="uploadCV" finished-at="2023-10-04T19:26:56 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadCV -->
+      </class> <!-- TestClass.CvTest -->
+      <class name="TestClass.UpdateTest">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:TestClass.UpdateTest@5ace1ed4]" started-at="2023-10-04T19:24:51 IST" name="initBrowser" finished-at="2023-10-04T19:26:32 IST" duration-ms="100896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="creatObject()[pri:0, instance:TestClass.UpdateTest@5ace1ed4]" started-at="2023-10-04T19:26:32 IST" name="creatObject" finished-at="2023-10-04T19:26:33 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatObject -->
+        <test-method signature="login()[pri:0, instance:TestClass.UpdateTest@5ace1ed4]" started-at="2023-10-04T19:26:33 IST" name="login" finished-at="2023-10-04T19:26:38 IST" duration-ms="4276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="view()[pri:0, instance:TestClass.UpdateTest@5ace1ed4]" started-at="2023-10-04T19:26:38 IST" name="view" finished-at="2023-10-04T19:26:55 IST" duration-ms="17793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- view -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClass.UpdateTest@5ace1ed4]" started-at="2023-10-04T19:26:58 IST" name="tearDown" finished-at="2023-10-04T19:27:23 IST" duration-ms="25286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestClass.UpdateTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
